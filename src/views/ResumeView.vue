@@ -9,48 +9,72 @@
 
     <section>
       <h2>EDUCATION</h2>
-      <p>
-        <strong>Nanyang Technological University, Singapore</strong><br />
-        Bachelor of Engineering in Computer Science with Honours (Distinction)<br />
-        <em>Specialization: Data Science and Artificial Intelligence</em><br />
-        Aug 2018 – Jun 2022
-      </p>
+      <div class="subheading">
+        <span>Nanyang Technological University, Singapore</span>
+        <span class="date">Aug 2018 – Jun 2022</span>
+      </div>
+      <p><em>Bachelor of Engineering in Computer Science with Honours (Distinction)</em></p>
+      <p><em>Specialization: Data Science and Artificial Intelligence</em></p>
     </section>
 
     <section>
       <h2>WORK EXPERIENCE</h2>
 
-      <p>
-        <strong>GXS Bank</strong> – Backend Software Engineer<br />
-        <em>Feb 2023 – Current</em>
-      </p>
+      <div class="subheading">
+        <span>GXS Bank</span>
+        <span class="date">Feb 2023 – Current</span>
+      </div>
+      <p><em>Backend Software Engineer</em></p>
+      <p class="sub-para-header">Loyalty Team</p>
       <ul>
         <li>
-          Designed, implemented and maintained a mission-critical Loyalty system built with
-          microservice architecture and an event-driven design, leveraging a rule engine service for
-          real-time evaluation and scheduled reward crediting. It maintains a 100% uptime while
-          receiving 20k-200k events and crediting ~8k rewards daily.
+          Designed and implemented a mission-based loyalty system from 0 to 1 with extendibility to
+          accommodate all future missions.
         </li>
         <li>
-          Led end-to-end development of the Invest product from concept to production launch.
-          Designed microservice architecture with event-driven design order processing and automated
-          batch processing for settlement and reconciliation. It is built with scalability and
-          extendibility for seamless integration with multiple Fund Houses to offer multiple
-          investment products.
+          Collaborated with all verticals (engineers, product managers, project managers, business
+          and ops) from the bank to develop the loyalty product targeting customer retention and new
+          user acquisition, achieving ~10% completion rates.
         </li>
         <li>
-          Engineered high-performance infrastructure using Golang, MySQL RDS and Redis for
-          high-performance data processing. Utilized AWS SQS and Kafka for reliable message queuing,
-          protobuf and REST APIs for client-server communication. Containerized the entire stack
-          with ECR and Kubernetes hosted on AWS while deploying pipelines and infrastructure with
-          Terraform.
+          Maintained the system with a 99.99% uptime while receiving 20k-200k events and crediting
+          ~8k cashbacks daily.
         </li>
       </ul>
 
-      <p>
-        <strong>Garena</strong> – Full Stack Software Engineer<br />
-        <em>Jul 2022 – Sep 2022</em>
-      </p>
+      <p class="sub-para-header">Invest Team</p>
+      <ul>
+        <li>
+          Collaborated with a team of ~10 engineers to build an investment product from 0 to 1,
+          expecting to bring a revenue of $500k in 5 months of launch.
+        </li>
+        <li>
+          Led the end-to-end development with all verticals especially the Ops team to design and
+          automate 80% of the reconciliation process and reduce manual effort by at least 70%.
+        </li>
+      </ul>
+
+      <p class="sub-para-header">Tech Stack</p>
+      <ul>
+        <li>
+          Engineered high-performance infrastructure using Golang, MySQL RDS and Redis for
+          high-performance data processing.
+        </li>
+        <li>
+          Utilized AWS SQS and Kafka for reliable message queuing, gRPC for inter-service
+          communication, and REST APIs for client-server communication.
+        </li>
+        <li>
+          Containerized the entire stack with ECR and Kubernetes hosted on AWS while deploying
+          pipelines and infrastructure with Terraform.
+        </li>
+      </ul>
+
+      <div class="subheading">
+        <span>Garena</span>
+        <span class="date">Jul 2022 – Sep 2022</span>
+      </div>
+      <p><em>Full Stack Software Engineer</em></p>
       <ul>
         <li>Designed and implemented RESTful APIs built on HTTP requests in the Backend</li>
         <li>
@@ -64,10 +88,11 @@
         </li>
       </ul>
 
-      <p>
-        <strong>Barghest Building Performance</strong> – Software Engineer Intern<br />
-        <em>Jan 2021 – Jul 2021</em>
-      </p>
+      <div class="subheading">
+        <span>Barghest Building Performance</span>
+        <span class="date">Jan 2021 – Jul 2021</span>
+      </div>
+      <p><em>Software Engineer Intern</em></p>
       <ul>
         <li>Implemented Frontend features using ReactJS on the web application</li>
         <li>
@@ -156,6 +181,7 @@ export default {
 h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 .contact {
   font-size: 0.95rem;
@@ -163,15 +189,38 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #444;
   margin-top: 2rem;
   padding-bottom: 0.2rem;
   font-size: 1.25rem;
+  font-weight: bold;
+}
+.subheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.sub-para-header {
+  font-size: 1rem;
+  /* border-bottom: 2px solid #aaa; */
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+  /* color: #222; */
 }
 ul {
   margin-left: 1rem;
 }
 a {
   color: #1a73e8;
+}
+.date {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #666;
 }
 </style>
