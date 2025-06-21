@@ -108,10 +108,10 @@
 
     <section>
       <h2>PROJECTS</h2>
-      <p>
-        <strong>Stats Bot (Full Stack Project)</strong><br />
-        <em>Jan 2022 – Dec 2022</em>
-      </p>
+      <div class="subheading">
+        <span>Stats Bot (Full Stack Project)</span>
+        <span class="date">Jan 2022 – Dec 2022</span>
+      </div>
       <ul>
         <li>Integrated a full stack project that is used to record stats</li>
         <li>
@@ -128,10 +128,10 @@
 
     <section>
       <h2>AWARDS</h2>
-      <p>
-        <strong>GXS Bank Tomorrowthon – Champion</strong><br />
-        <em>Mar 2024</em>
-      </p>
+      <div class="subheading">
+        <span>GXS Bank Tomorrowthon – Champion</span>
+        <span class="date">Mar 2024</span>
+      </div>
       <ul>
         <li>
           Brainstormed, ideated and implemented a GenAI solution for a feature in the company’s
