@@ -1,10 +1,13 @@
 <template>
-  <div class="resume-container">
+  <button class="print-button" @click="downloadPDF">Download as PDF</button>
+  <div id="resume-content" class="resume-container">
+    <!-- Your resume content goes here, e.g.: -->
     <h1>TAN TAY SIANG RONALD</h1>
     <p class="contact">
       Mobile: +65 9472 4878 |
       <a href="mailto:ronaldtants@gmail.com">ronaldtants@gmail.com</a> |
-      <a href="https://www.linkedin.com/in/ronald-tan-tay-siang/" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/ronald-tan-tay-siang/" target="_blank">LinkedIn</a> |
+      <a href="https://ronaldtants.github.io/resume/" target="_blank">Website</a>
     </p>
 
     <section>
@@ -13,8 +16,8 @@
         <span>Nanyang Technological University, Singapore</span>
         <span class="date">Aug 2018 – Jun 2022</span>
       </div>
-      <p><em>Bachelor of Engineering in Computer Science with Honours (Distinction)</em></p>
-      <p><em>Specialization: Data Science and Artificial Intelligence</em></p>
+      <p>Bachelor of Engineering in Computer Science with Honours (Distinction)</p>
+      <p>Specialization: Data Science and Artificial Intelligence</p>
     </section>
 
     <section>
@@ -30,6 +33,11 @@
         <li>
           Designed and implemented a mission-based loyalty system from 0 to 1 with extendibility to
           accommodate all future missions.
+        </li>
+        <li>
+          Collaborated with 4 other backend engineers and an external vendor to build an event
+          driven microservice architecture that evaluates user’s eligibility while supporting batch
+          processing to credit cashback rewards.
         </li>
         <li>
           Collaborated with all verticals (engineers, product managers, project managers, business
@@ -49,8 +57,12 @@
           expecting to bring a revenue of $500k in 5 months of launch.
         </li>
         <li>
-          Led the end-to-end development with all verticals especially the Ops team to design and
-          automate 80% of the reconciliation process and reduce manual effort by at least 70%.
+          Spearheaded the automation of over 80% of the reconciliation process with the Operations
+          team to reduce manual effort by at least 70%.
+        </li>
+        <li>
+          Led the end-to-end development with all verticals, especially the Operations team to
+          design and implement synchronous batch processing for the settlement process.
         </li>
       </ul>
 
@@ -129,7 +141,7 @@
     <section>
       <h2>AWARDS</h2>
       <div class="subheading">
-        <span>GXS Bank Tomorrowthon – Champion</span>
+        <span>GXS Bank Hackathon (Tomorrowthon) – Champion</span>
         <span class="date">Mar 2024</span>
       </div>
       <ul>
@@ -161,10 +173,51 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+import html2pdf from 'html2pdf.js'
+import jsPDF from 'jspdf'
+export default defineComponent({
   name: 'ResumeView',
-}
+  methods: {
+    downloadPDF(): void {
+      const element = document.getElementById('resume-content')
+      if (!element) return
+
+      html2pdf()
+        .from(element)
+        .set({
+          margin: 0.5,
+          filename: 'Tan_Tay_Siang_Ronald_Resume.pdf',
+          image: { type: 'jpeg', quality: 1 },
+          html2canvas: { scale: 5 },
+          jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
+          pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
+        })
+        .save()
+
+      /* 
+      html2pdf converts the HTML content to an image then adds the image to a PDF. 
+      jsPDF converts the HTML content directly to a PDF, so it does not include the hyperlinks attached.
+      */
+
+      // const doc = new jsPDF('p', 'pt', 'a4')
+      // const resumeElement = document.getElementById('resume-content')
+      // if (resumeElement) {
+      //   doc.html(resumeElement, {
+      //     callback: function (doc) {
+      //       doc.save('Tan_Tay_Siang_Ronald_Resume.pdf')
+      //     },
+      //     x: 10,
+      //     y: 10,
+      //     html2canvas: {
+      //       scale: 0.72, // jsPDF handles layout better here
+      //     },
+      //   })
+      // }
+    },
+  },
+})
 </script>
 
 <style scoped>
@@ -189,7 +242,7 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 {
-  border-bottom: 2px solid #444;
+  border-bottom: 4px solid #444;
   margin-top: 2rem;
   padding-bottom: 0.2rem;
   font-size: 1.25rem;
@@ -202,14 +255,13 @@ h2 {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 0.5rem;
+  border-bottom: 2px solid #aaa;
 }
 .sub-para-header {
   font-size: 1rem;
-  /* border-bottom: 2px solid #aaa; */
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 0.3rem;
-  /* color: #222; */
 }
 ul {
   margin-left: 1rem;
@@ -222,5 +274,29 @@ a {
   font-style: italic;
   font-size: 1.05rem;
   color: #666;
+}
+.print-button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* Prevent page breaks in key elements */
+@media print {
+  .print-button {
+    display: none;
+  }
+
+  section,
+  ul,
+  li,
+  p,
+  h2 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 </style>
