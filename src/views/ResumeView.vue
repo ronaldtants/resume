@@ -31,38 +31,38 @@
       <p class="sub-para-header">Loyalty Team</p>
       <ul>
         <li>
-          Designed and implemented a mission-based loyalty system from 0 to 1 with extendibility to
-          accommodate all future missions.
+          Designed and launched a mission-based loyalty system from 0 to 1 with extendibility to
+          support future campaign types.
         </li>
         <li>
-          Collaborated with 4 other backend engineers and an external vendor to build an event
-          driven microservice architecture that evaluates user’s eligibility while supporting batch
-          processing to credit cashback rewards.
+          Collaborated with 4 backend engineers and an external vendor to develop an event-driven
+          microservice architecture, enabling real-time eligibility checks and batch cashback
+          processing.
         </li>
         <li>
-          Collaborated with all verticals (engineers, product managers, project managers, business
-          and ops) from the bank to develop the loyalty product targeting customer retention and new
-          user acquisition, achieving ~10% completion rates.
+          Partnered across all verticals - engineering, product, project management, business, and
+          operations - to deliver a loyalty solution targeting customer retention and new user
+          acquisition, achieving ~10% completion rates.
         </li>
         <li>
-          Maintained the system with a 99.99% uptime while receiving 20k-200k events and crediting
-          ~8k cashbacks daily.
+          Maintained 99.99% system uptime while processing 20k-200k daily events and crediting ~8k
+          cashbacks per day.
         </li>
       </ul>
 
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Collaborated with a team of ~10 engineers to build an investment product from 0 to 1,
-          expecting to bring a revenue of $500k in 5 months of launch.
+          Worked with ~10 engineers to build a new investment product projected to generate $500K in
+          revenue within 5 months of launch.
         </li>
         <li>
-          Spearheaded the automation of over 80% of the reconciliation process with the Operations
-          team to reduce manual effort by at least 70%.
+          Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
+          operations through >80% process automation.
         </li>
         <li>
-          Led the end-to-end development with all verticals, especially the Operations team to
-          design and implement synchronous batch processing for the settlement process.
+          Delivered end-to-end settlement functionality by collaborating closely with Operations and
+          other stakeholders to implement synchronous batch processing.
         </li>
       </ul>
 
@@ -73,12 +73,12 @@
           high-performance data processing.
         </li>
         <li>
-          Utilized AWS SQS and Kafka for reliable message queuing, gRPC for inter-service
+          Integrated AWS SQS and Kafka for reliable message queuing, gRPC for inter-service
           communication, and REST APIs for client-server communication.
         </li>
         <li>
-          Containerized the entire stack with ECR and Kubernetes hosted on AWS while deploying
-          pipelines and infrastructure with Terraform.
+          Containerized services with ECR and Kubernetes hosted on AWS while deploying pipelines and
+          infrastructure with Terraform.
         </li>
       </ul>
 
