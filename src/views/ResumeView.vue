@@ -53,7 +53,7 @@
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Worked with ~10 engineers to build a new investment product projected to generate $500K in
+          Worked with ~10 engineers to build a new investment product projected to generate $1m in
           revenue within 5 months of launch.
         </li>
         <li>
