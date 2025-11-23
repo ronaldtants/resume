@@ -32,37 +32,37 @@
       <ul>
         <li>
           Designed and launched a mission-based loyalty system from 0 to 1 with extendibility to
-          support future campaign types.
+          support future campaign types
         </li>
         <li>
           Collaborated with 4 backend engineers and an external vendor to develop an event-driven
           microservice architecture, enabling real-time eligibility checks and batch cashback
-          processing.
+          processing
         </li>
         <li>
           Partnered across all verticals - engineering, product, project management, business, and
           operations - to deliver a loyalty solution targeting customer retention and new user
-          acquisition, achieving ~10% completion rates.
+          acquisition, achieving ~10% completion rates
         </li>
         <li>
           Maintained 99.99% system uptime while processing 20k-200k daily events and crediting ~8k
-          cashbacks per day.
+          cashbacks per day
         </li>
       </ul>
 
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Worked with ~10 engineers to build a new investment product projected to generate $1m in
-          revenue within 5 months of launch.
+          Worked with 2-10 engineers to build a new investment product achieving $18m AUM in 4
+          months and projecting $1b by end 2026
         </li>
         <li>
           Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
-          operations through >80% process automation.
+          operations through >80% process automation
         </li>
         <li>
           Delivered end-to-end settlement functionality by collaborating closely with Operations and
-          other stakeholders to implement synchronous batch processing.
+          other stakeholders to implement synchronous batch processing
         </li>
       </ul>
 
@@ -70,15 +70,15 @@
       <ul>
         <li>
           Engineered high-performance infrastructure using Golang, MySQL RDS and Redis for
-          high-performance data processing.
+          high-performance data processing
         </li>
         <li>
-          Integrated AWS SQS and Kafka for reliable message queuing, gRPC for inter-service
-          communication, and REST APIs for client-server communication.
+          Integrated AWS SQS and Kafka for reliable message queuing, and RESTful HTTP APIs for
+          client-server communication
         </li>
         <li>
           Containerized services with ECR and Kubernetes hosted on AWS while deploying pipelines and
-          infrastructure with Terraform.
+          infrastructure with Terraform
         </li>
       </ul>
 
@@ -121,19 +121,25 @@
     <section>
       <h2>PROJECTS</h2>
       <div class="subheading">
-        <span>Stats Bot (Full Stack Project)</span>
-        <span class="date">Jan 2022 – Dec 2022</span>
+        <span
+          ><a href="https://mahjong-stats-tracker-frontend.onrender.com" target="_blank"
+            >Mahjong Stats Tracker</a
+          ></span
+        >
+        <span class="date">Oct 2025 – Nov 2025</span>
       </div>
       <ul>
-        <li>Integrated a full stack project that is used to record stats</li>
+        <li>Integrated a full stack project that is used to record stats for mahjong</li>
         <li>
-          1st iteration designed and implemented RESTful APIs in the Backend by integrating Flask
-          and MongoDB. Frontend utilizes open-source Telegram APIs and usage of Telegram bot to
-          handle inputs from user
+          Frontend and Backend web services are hosted on Render Cloud with the Backend connecting
+          to Supabase online database
         </li>
         <li>
-          2nd iteration implemented Backend using Golang, Redis hosted on docker and Frontend using
-          Vue
+          Backend incorporates best practices for code design to implement a Golang server and
+          Frontend utilizes Vue framework, communicating by REST APIs
+        </li>
+        <li>
+          Full stack project is containerized with docker to be deployable on any cloud hosting
         </li>
       </ul>
     </section>
