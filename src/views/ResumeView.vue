@@ -35,7 +35,7 @@
           support future campaign types
         </li>
         <li>
-          Collaborated with 4 backend engineers and an external vendor to develop an event-driven
+          Collaborated with 4 Backend engineers and an external vendor to develop an event-driven
           microservice architecture, enabling real-time eligibility checks and batch cashback
           processing
         </li>
@@ -53,8 +53,8 @@
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Worked with 2-10 engineers to build a new investment product achieving $18m AUM in 4
-          months and projecting $1b by end 2026
+          Worked with 2-10 engineers to build a new investment product from 0 to 1 achieving $18m
+          AUM in 4 months and projecting $1b by end 2026
         </li>
         <li>
           Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
@@ -90,7 +90,7 @@
       <ul>
         <li>Designed and implemented RESTful APIs built on HTTP requests in the Backend</li>
         <li>
-          Developed and optimized Backend logics using Golang, and deployed to production; debugged
+          Developed and optimized Backend logic using Golang, and deployed to production; debugged
           and troubleshooted live events of games and players’ feedbacks
         </li>
         <li>
@@ -109,7 +109,7 @@
         <li>Implemented Frontend features using ReactJS on the web application</li>
         <li>
           Developed a scalable automation script using multiple APIs in Python, improving efficiency
-          of company’s data monitoring tools of up to 20%
+          of company’s data monitoring tools by up to 20%
         </li>
         <li>
           Plotted and maintained graphs using Tableau for visualization and analysis of data to be
