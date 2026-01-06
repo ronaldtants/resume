@@ -53,16 +53,20 @@
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Worked with 2-10 engineers to build a new investment product from 0 to 1 achieving $18m
-          AUM in 4 months and projecting $1b by end 2026
+          Worked with 2-10 engineers to build a new investment product from 0 to 1 achieving $30m
+          AUM in 6 months and projecting $2.25b by end 2026
         </li>
         <li>
-          Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
-          operations through >80% process automation
+          Developed a high-performance, extendable platform that allows users to place buy and sell
+          orders of the various investment products the bank offers
         </li>
         <li>
           Delivered end-to-end settlement functionality by collaborating closely with Operations and
           other stakeholders to implement synchronous batch processing
+        </li>
+        <li>
+          Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
+          operations through >80% process automation
         </li>
       </ul>
 
