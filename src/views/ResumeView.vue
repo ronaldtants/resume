@@ -32,41 +32,46 @@
       <ul>
         <li>
           Designed and launched a mission-based loyalty system from 0 to 1 with extendibility to
-          support future campaign types
+          support future campaign types.
         </li>
         <li>
           Collaborated with 4 Backend engineers and an external vendor to develop an event-driven
           microservice architecture, enabling real-time eligibility checks and batch cashback
-          processing
+          processing.
         </li>
         <li>
           Partnered across all verticals - engineering, product, project management, business, and
           operations - to deliver a loyalty solution targeting customer retention and new user
-          acquisition, achieving ~10% completion rates
+          acquisition, achieving ~10% completion rates.
         </li>
         <li>
           Maintained 99.99% system uptime while processing 20k-200k daily events and crediting ~8k
-          cashbacks per day
+          cashbacks per day.
         </li>
       </ul>
 
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Worked with 2-10 engineers to build a new investment product from 0 to 1 achieving $30m
-          AUM in 6 months and projecting $2.25b by end 2026
+          Spearheaded the launch of Invest 2.0 as the sole permanent engineer, transforming the
+          platform from a single-fund offering into a scalable multi-fund ecosystem.
+        </li>
+        <li>
+          Drove the 0-to-1 development of the core investment product alongside an engineering team,
+          capturing $30M AUM within 6 months with a projected growth to $2B revenue by 2026.
         </li>
         <li>
           Developed a high-performance, extendable platform that allows users to place buy and sell
-          orders of the various investment products the bank offers
+          orders of the various investment products the bank offers.
         </li>
         <li>
-          Delivered end-to-end settlement functionality by collaborating closely with Operations and
-          other stakeholders to implement synchronous batch processing
+          Engineered end-to-end settlement pipelines through synchronous batch processing,
+          partnering closely with Operations and other stakeholders to ensure continuous
+          transactional integrity.
         </li>
         <li>
           Led automation efforts that reduced manual reconciliation work by over 70%, streamlining
-          operations through >80% process automation
+          operations through >80% process automation.
         </li>
       </ul>
 
@@ -74,15 +79,15 @@
       <ul>
         <li>
           Engineered high-performance infrastructure using Golang, MySQL RDS and Redis for
-          high-performance data processing
+          high-performance data processing.
         </li>
         <li>
           Integrated AWS SQS and Kafka for reliable message queuing, and RESTful HTTP APIs for
-          client-server communication
+          client-server communication.
         </li>
         <li>
           Containerized services with ECR and Kubernetes hosted on AWS while deploying pipelines and
-          infrastructure with Terraform
+          infrastructure with Terraform.
         </li>
       </ul>
 
@@ -92,15 +97,15 @@
       </div>
       <p><em>Full Stack Software Engineer</em></p>
       <ul>
-        <li>Designed and implemented RESTful APIs built on HTTP requests in the Backend</li>
+        <li>Designed and implemented RESTful APIs built on HTTP requests in the Backend.</li>
         <li>
           Developed and optimized Backend logic using Golang, and deployed to production; debugged
-          and troubleshooted live events of games and players’ feedbacks
+          and troubleshooted live events of games and players’ feedbacks.
         </li>
         <li>
           Implemented quick and convenient access of players’ state by utilizing Redis, and
           collaborated with Ops team for performance analysis by implementing statistics collection
-          using Kafka and MySQL
+          using Kafka and MySQL.
         </li>
       </ul>
 
@@ -110,14 +115,14 @@
       </div>
       <p><em>Software Engineer Intern</em></p>
       <ul>
-        <li>Implemented Frontend features using ReactJS on the web application</li>
+        <li>Implemented Frontend features using ReactJS on the web application.</li>
         <li>
           Developed a scalable automation script using multiple APIs in Python, improving efficiency
-          of company’s data monitoring tools by up to 20%
+          of company’s data monitoring tools by up to 20%.
         </li>
         <li>
           Plotted and maintained graphs using Tableau for visualization and analysis of data to be
-          displayed on the web application
+          displayed on the web application.
         </li>
       </ul>
     </section>
@@ -133,17 +138,17 @@
         <span class="date">Oct 2025 – Nov 2025</span>
       </div>
       <ul>
-        <li>Integrated a full stack project that is used to record stats for mahjong</li>
+        <li>Integrated a full stack project that is used to record stats for mahjong.</li>
         <li>
           Frontend and Backend web services are hosted on Render Cloud with the Backend connecting
-          to Supabase online database
+          to Supabase online database.
         </li>
         <li>
           Backend incorporates best practices for code design to implement a Golang server and
-          Frontend utilizes Vue framework, communicating by REST APIs
+          Frontend utilizes Vue framework, communicating by REST APIs.
         </li>
         <li>
-          Full stack project is containerized with docker to be deployable on any cloud hosting
+          Full stack project is containerized with docker to be deployable on any cloud hosting.
         </li>
       </ul>
     </section>
@@ -157,15 +162,15 @@
       <ul>
         <li>
           Brainstormed, ideated and implemented a GenAI solution for a feature in the company’s
-          product
+          product.
         </li>
         <li>
           Utilized internally developed AI to automatically produce saving goals for users using the
-          Saving Pockets feature in GXS App
+          Saving Pockets feature in GXS App.
         </li>
         <li>
           Developed the Backend service to call the API to the AI service, to retrieve and format
-          the information to be displayed on Frontend
+          the information to be displayed on Frontend.
         </li>
       </ul>
     </section>
