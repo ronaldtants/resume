@@ -53,12 +53,13 @@
       <p class="sub-para-header">Invest Team</p>
       <ul>
         <li>
-          Spearheaded the launch of Invest 2.0 as the sole permanent engineer, transforming the
-          platform from a single-fund offering into a scalable multi-fund ecosystem.
+          Spearheaded and took full ownership of the launch of Invest 2.0 as the sole permanent
+          engineer, transforming the platform from a single-fund offering into a scalable multi-fund
+          ecosystem.
         </li>
         <li>
           Drove the 0-to-1 development of the core investment product alongside an engineering team,
-          capturing $30M AUM within 6 months with a projected growth to $2B revenue by 2026.
+          capturing $30M AUM within 6 months with a projected growth to $2.5B AUM by 2026.
         </li>
         <li>
           Developed a high-performance, extendable platform that allows users to place buy and sell
